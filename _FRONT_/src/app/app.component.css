@@ -1,0 +1,9 @@
+#susenwis {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#susenwis motor{
+    margin: 1rem;
+}

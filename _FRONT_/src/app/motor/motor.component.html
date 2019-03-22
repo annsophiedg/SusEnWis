@@ -1,0 +1,9 @@
+<div class="motor">
+  {{motorName}}
+  <button (click)="startEngine()" type="button" name="button">start</button>
+  <button (click)="stopEngine()" type="button" name="button">stop</button><br>
+  <!-- <button type="button" name="button">veiligheid</button><br> -->
+  <br>
+  <img width="300" alt="My Duck" [src]="status=='ON'?'assets/on.gif':'assets/off.gif'">
+  {{status}}
+</div>

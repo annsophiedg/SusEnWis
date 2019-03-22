@@ -1,0 +1,8 @@
+<h1>
+  Wiske
+</h1>
+<div>
+  <button (click)="teleporteer()" [hidden]="!inUse">Laat Wiske gebruik maken van de teletijdmachine</button>
+  <button (click)="teleporteer()" [hidden]="inUse">Stop teletijdmachine</button>
+</div>
+<p>{{tekst}}</p>
